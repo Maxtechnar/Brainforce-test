@@ -1,0 +1,947 @@
+@font-face {
+    font-family: "Geometria";
+    src: url(Fonts/geometria_light.woff);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: "Geometria";
+}
+
+.header_wrapper{
+    position: absolute;
+    width: 1440px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+}
+
+.logo{
+    position: absolute;
+    left: 2.29%;
+    right: 94.66%;
+    top: 16%;
+    bottom: 31.2%;
+}
+
+.number a{
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    width: 163px;
+    height: 23px;
+    left: 147px;
+    top: 22px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 128%;
+}
+
+.number2 a{
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    width: 163px;
+    height: 23px;
+    left: 147px;
+    top: 55px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 128%;
+}
+
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 638px;
+    height: 23px;
+    left: 380px;
+    top: 38px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    padding-left: 40px;
+}
+
+.search{
+    position: absolute;
+    width: 77px;
+    height: 24px;
+    left: 1075px;
+    top: 38px;
+    border-bottom: 1px dashed #333333;
+    cursor: pointer;
+}
+
+
+.consultation button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 20px;
+    position: absolute;
+    width: 148px;
+    height: 43px;
+    left: 1189px;
+    top: 28px;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.consultation button:hover{
+    background: #828282;
+    color: white;
+}
+
+.consultation button span{
+    position: static;
+    width: 108px;
+    height: 19px;
+    left: 20px;
+    top: 12px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    font-family: 'Geometria';
+}
+
+.main{
+    position: absolute;
+    width: 75px;
+    height: 23px;
+    left: 30px;
+    top: 167px;
+}
+
+.main a{
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 128%;
+    text-decoration: none;
+    color: black;
+}
+
+.group_485{
+    position: absolute;
+    width: 447px;
+    height: 102px;
+    left: 30px;
+    top: 200px;
+}
+
+.main{
+    position: absolute;
+    width: 75px;
+    height: 23px;
+    top: 167px;
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 128%;
+    letter-spacing: 0.02em;
+}
+
+.group_485 h2{
+    position: absolute;
+    width: 354px;
+    height: 40px;
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 132%;
+    top: 10px;
+}
+
+.group_485 p{
+    position: absolute;
+    width: 447px;
+    height: 42px;
+    top: 70px;
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    color: #828282;
+}
+
+.chat{
+    position: absolute;
+    width: 447px;
+    height: 764px;
+    background: #E0E0E0;
+    border-radius: 8px;
+    left: 895px;
+    top: 200px;
+}
+
+.chat h4{
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    left: 203px;
+    top: 157px;
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 124%;
+}
+
+.frame_95{
+    padding: 0px;
+    position: absolute;
+    width: 850px;
+    height: 552px;
+    left: 30px;
+    top: 342px;
+}
+
+.frame_95 h3{
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.line{
+    position: absolute;
+    width: 193px;
+    height: 2px;
+    left: 20px;
+    top: 62px;
+    background: #FFDB2D;
+    border-radius: 8px;
+}
+
+.info{
+    position: absolute;
+    height: 76px;
+    left:26%;
+    right: 0%;
+    top: 0px;
+    background: #F4F4F4;
+    border-radius: 8px;
+}
+
+.info h6{
+    position: absolute;
+    height: 24px;
+    left: 4.41%;
+    right: 13.09%;
+    top: 26px;
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 150%;
+}
+
+.info img{
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    right: 10px;
+    top: 28px;
+}
+
+.info img:hover{
+    border-radius: 2px;
+    transform: rotate(-45deg);
+}
+
+.info1{
+    position: absolute;
+    height: 76px;
+    left: 26%;
+    right: 0%;
+    top: 85px;
+    background: #F4F4F4;
+    border-radius: 8px;
+}
+
+.info1 h6{
+    position: absolute;
+    height: 24px;
+    left: 4.41%;
+    right: 13.09%;
+    top: 26px;
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 150%;
+}
+
+.info1 img{
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    right: 10px;
+    top: 28px;
+}
+
+.info1 img:hover{
+    border-radius: 2px;
+    transform: rotate(-45deg);
+}
+
+.info2{
+    position: absolute;
+    height: 76px;
+    left: 26%;
+    right: 0%;
+    top: 170px;
+    background: #F4F4F4;
+    border-radius: 8px;
+}
+
+.info2 h6{
+    position: absolute;
+    height: 24px;
+    left: 4.41%;
+    right: 13.09%;
+    top: 26px;
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 150%;
+}
+
+.info2 img{
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    right: 10px;
+    top: 28px;
+}
+
+.info2 img:hover{
+    border-radius: 2px;
+    transform: rotate(-45deg);
+}
+
+.info3{
+    position: absolute;
+    height: 309px;
+    left: 26%;
+    right: 0%;
+    top: 257px;
+    background: #F4F4F4;
+    border-radius: 8px;
+}
+
+.info3 h6{
+    position: absolute;
+    height: 24px;
+    left: 4.41%;
+    right: 13.09%;
+    top: 26px;
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 150%;
+}
+
+.info3 img{
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    right: 10px;
+    top: 28px;
+    border-radius: 2px;
+    transform: rotate(-45deg);
+}
+
+
+.info3 p{
+    position: absolute;
+    height: 178px;
+    left: 5.88%;
+    right: 13.09%;
+    top: 94px;
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+}
+
+.background{
+    background-image: url(img/Rectangle\ 173.png);
+    position: absolute;
+    width: 943px;
+    height: 1355px;
+    left: 497px;
+    top: 1050px;
+}
+
+.frame_96{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 850px;
+    height: 552px;
+    left: 30px;
+    top: 964px;
+}
+
+.frame_96 h3 {
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.info4{
+    position: absolute;
+    height: 76px;
+    left:26%;
+    right: 0%;
+    top: 0px;
+    background: #F4F4F4;
+    border-radius: 8px;
+}
+
+.info4 h6{
+    position: absolute;
+    height: 24px;
+    left: 4.41%;
+    right: 13.09%;
+    top: 26px;
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 150%;
+}
+
+.info4 img{
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    right: 10px;
+    top: 28px;
+}
+
+.info4 img:hover{
+    border-radius: 2px;
+    transform: rotate(-45deg);
+}
+
+.info5{
+    position: absolute;
+    height: 76px;
+    left: 26%;
+    right: 0%;
+    top: 85px;
+    background: #F4F4F4;
+    border-radius: 8px;
+}
+
+.info5 h6{
+    position: absolute;
+    height: 24px;
+    left: 4.41%;
+    right: 13.09%;
+    top: 26px;
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 150%;
+}
+
+.info5 img{
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    right: 10px;
+    top: 28px;
+}
+
+.info5 img:hover{
+    border-radius: 2px;
+    transform: rotate(-45deg);
+}
+
+.info6{
+    position: absolute;
+    height: 76px;
+    left: 26%;
+    right: 0%;
+    top: 170px;
+    background: #F4F4F4;
+    border-radius: 8px;
+}
+
+.info6 h6{
+    position: absolute;
+    height: 24px;
+    left: 4.41%;
+    right: 13.09%;
+    top: 26px;
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 150%;
+}
+
+.info6 img{
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    right: 10px;
+    top: 28px;
+}
+
+.info6 img:hover{
+    border-radius: 2px;
+    transform: rotate(-45deg);
+}
+
+.info7{
+    position: absolute;
+    height: 309px;
+    left: 26%;
+    right: 0%;
+    top: 257px;
+    background: #F4F4F4;
+    border-radius: 8px;
+}
+
+.info7 h6{
+    position: absolute;
+    height: 24px;
+    left: 4.41%;
+    right: 13.09%;
+    top: 26px;
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 150%;
+}
+
+.info7 img{
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    right: 10px;
+    top: 28px;
+    border-radius: 2px;
+    transform: rotate(-45deg);
+}
+
+
+.info7 p{
+    position: absolute;
+    height: 178px;
+    left: 5.88%;
+    right: 13.09%;
+    top: 94px;
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+}
+
+.frame_97{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width:850px;
+    height: 552px;
+    left: 30px;
+    top: 1586px;
+}
+
+.frame_97 h3 {
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.info8{
+    position: absolute;
+    height: 76px;
+    left:26%;
+    right: 0%;
+    top: 0px;
+    background: #F4F4F4;
+    border-radius: 8px;
+}
+
+.info8 h6{
+    position: absolute;
+    height: 24px;
+    left: 4.41%;
+    right: 13.09%;
+    top: 26px;
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 150%;
+}
+
+.info8 img{
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    right: 10px;
+    top: 28px;
+}
+
+.info8 img:hover{
+    border-radius: 2px;
+    transform: rotate(-45deg);
+}
+
+.info9{
+    position: absolute;
+    height: 76px;
+    left: 26%;
+    right: 0%;
+    top: 85px;
+    background: #F4F4F4;
+    border-radius: 8px;
+}
+
+.info9 h6{
+    position: absolute;
+    height: 24px;
+    left: 4.41%;
+    right: 13.09%;
+    top: 26px;
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 150%;
+}
+
+.info9 img{
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    right: 10px;
+    top: 28px;
+}
+
+.info9 img:hover{
+    border-radius: 2px;
+    transform: rotate(-45deg);
+}
+
+.info10{
+    position: absolute;
+    height: 76px;
+    left: 26%;
+    right: 0%;
+    top: 170px;
+    background: #F4F4F4;
+    border-radius: 8px;
+}
+
+.info10 h6{
+    position: absolute;
+    height: 24px;
+    left: 4.41%;
+    right: 13.09%;
+    top: 26px;
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 150%;
+}
+
+.info10 img{
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    right: 10px;
+    top: 28px;
+}
+
+.info10 img:hover{
+    border-radius: 2px;
+    transform: rotate(-45deg);
+}
+
+.info11{
+    position: absolute;
+    height: 309px;
+    left: 26%;
+    right: 0%;
+    top: 257px;
+    background: #F4F4F4;
+    border-radius: 8px;
+}
+
+.info11 h6{
+    position: absolute;
+    height: 24px;
+    left: 4.41%;
+    right: 13.09%;
+    top: 26px;
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 150%;
+}
+
+.info11 img{
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    right: 10px;
+    top: 28px;
+    border-radius: 2px;
+    transform: rotate(-45deg);
+}
+
+
+.info11 p{
+    position: absolute;
+    height: 178px;
+    left: 5.88%;
+    right: 13.09%;
+    top: 94px;
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+}
+
+.footer_wrapper{
+    position: absolute;
+    width: 1440px;
+    height: 803px;
+    left: 0px;
+    top: 2228px;
+    background: #333333;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 566px;
+    height: 643px;
+    left: 30px;
+    top: 80px;
+}
+
+.data h1{
+    position: static;
+    left: 0%;
+    right: 0.53%;
+    margin-top: 80px;
+    bottom: 88.18%;
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 38px;
+    color: #E0E0E0;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.text{
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 514px;
+    height: 21px;
+    left: 0px;
+    top: 30px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 10px 0px;
+    padding-top: 40px;
+}
+
+.text p{
+    position: static;
+    left: 0%;
+    right: 0.53%;
+    top: 0%;
+    bottom: 60.78%;
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+    color: #E0E0E0;
+}
+
+.text a{
+    position: static;
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding-left: 10px;   
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0px 40px;
+    margin-left: -2%;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    height: 156px;
+    left: 0px;
+    top: 560px;
+    width: 190px;
+}
+
+.sidebar a{
+    position: static;
+    left: 0%;
+    right: 43.3%;
+    top: 0%;
+    bottom: 84.62%;
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 13px 30px;
+    text-decoration: none;
+}
+
+.contact{
+    position: absolute;
+    left: 263px;
+    right: -1.27%;
+    top: 575px;
+    bottom: 36.81%;
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+.contact a{
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.contact p{
+    margin-top: 30px;
+}
+
+.map{
+    position: absolute;
+    width: 704px;
+    height: 648px;
+    left: 613px;
+    top: 92px;
+    border: 2px solid #828282;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+
+.footer2{
+    position: absolute;
+    width: 1440px;
+    height: 40px;
+    left: 0px;
+    top: 3031px;
+}
+
+.text1{
+    position: absolute;
+    left: 2.08%;
+    right: 83.12%;
+    top: 25%;
+    bottom: 22.5%;
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+}
+
+.text2{
+    position: absolute;
+    left: 74.69%;
+    right: 2.08%;
+    top: 25%;
+    bottom: 22.5%;
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+}
