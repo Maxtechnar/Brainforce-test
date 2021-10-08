@@ -212,6 +212,423 @@ body{
     line-height: 124%;
 }
 
+.accordion{
+    padding: 30px;
+    margin-top: -89px;
+    margin-left: 197px;
+}
+
+.accordion_item{
+    border-radius: 8px;
+    background-color: #F4F4F4;
+    margin-top: 5px;
+    width: 627px;
+    height: 76px;
+    transition: .4s linear;
+    cursor: pointer;
+}
+
+.accordion_item1{
+    border-radius: 8px;
+    background-color: #F4F4F4;
+    margin-top: 5px;
+    width: 627px;
+    height: 76px;
+    transition: .4s linear;
+    cursor: pointer;
+}
+
+.accordion_item2{
+    border-radius: 8px;
+    background-color: #F4F4F4;
+    margin-top: 5px;
+    width: 627px;
+    height: 76px;
+    transition: .4s linear;
+    cursor: pointer;
+}
+
+.accordion_item3{
+    border-radius: 8px;
+    background-color: #F4F4F4;
+    margin-top: 5px;
+    width: 627px;
+    height: 76px;
+    transition: .4s linear;
+    cursor: pointer;
+}
+
+.accordion_item4{
+    border-radius: 8px;
+    background-color: #F4F4F4;
+    margin-top: 5px;
+    width: 627px;
+    height: 76px;
+    transition: .4s linear;
+    cursor: pointer;
+}
+
+.accordion_item5{
+    border-radius: 8px;
+    background-color: #F4F4F4;
+    margin-top: 5px;
+    width: 627px;
+    height: 76px;
+    transition: .4s linear;
+    cursor: pointer;
+}
+
+.accordion_item6{
+    border-radius: 8px;
+    background-color: #F4F4F4;
+    margin-top: 5px;
+    width: 627px;
+    height: 76px;
+    transition: .4s linear;
+    cursor: pointer;
+}
+
+.accordion_item7{
+    border-radius: 8px;
+    background-color: #F4F4F4;
+    margin-top: 5px;
+    width: 627px;
+    height: 76px;
+    transition: .4s linear;
+    cursor: pointer;
+}
+
+.accordion_item8{
+    border-radius: 8px;
+    background-color: #F4F4F4;
+    margin-top: 5px;
+    width: 627px;
+    height: 76px;
+    transition: .4s linear;
+    cursor: pointer;
+}
+
+.accordion_item9{
+    border-radius: 8px;
+    background-color: #F4F4F4;
+    margin-top: 5px;
+    width: 627px;
+    height: 76px;
+    transition: .4s linear;
+    cursor: pointer;
+}
+
+.accordion_item10{
+    border-radius: 8px;
+    background-color: #F4F4F4;
+    margin-top: 5px;
+    width: 627px;
+    height: 76px;
+    transition: .4s linear;
+    cursor: pointer;
+}
+
+.accordion_item11{
+    border-radius: 8px;
+    background-color: #F4F4F4;
+    margin-top: 5px;
+    width: 627px;
+    height: 76px;
+    transition: .4s linear;
+    cursor: pointer;
+}
+
+.item-header h6{
+    cursor: pointer;
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 150%;
+    height: 24px;
+    padding-left: 16.41%;
+    right: 13.09%;
+    top: 15px;
+    position: relative;
+}
+
+.item-header img{
+    width: 19px;
+    height: 19px;
+    margin-left: 621px;
+    margin-top: 18px;
+    position: absolute;
+    right: 20px;
+    
+}
+
+.span_icon {
+    display: inline-block;
+    transition: transform .2s;
+  }
+   
+  .span_icon.open {
+    transform: rotate(-45deg);
+  }
+
+.content_block .activate {
+    visibility: visible;
+    transition: .4s linear;
+}
+
+.accordion_item.active {
+    height: 309px;
+    transition: .4s linear;
+    visibility: visible;
+}
+
+.accordion_item1.active {
+    height: 309px;
+    transition: .4s linear;
+    visibility: visible;
+}
+
+.accordion_item2.active {
+    height: 309px;
+    transition: .4s linear;
+    visibility: visible;
+}
+
+.accordion_item3.active {
+    height: 309px;
+    transition: .4s linear;
+    visibility: visible;
+}
+
+.accordion_item4.active {
+    height: 309px;
+    transition: .4s linear;
+    visibility: visible;
+}
+
+.accordion_item5.active {
+    height: 309px;
+    transition: .4s linear;
+    visibility: visible;
+}
+
+.accordion_item6.active {
+    height: 309px;
+    transition: .4s linear;
+    visibility: visible;
+}
+
+.accordion_item7.active {
+    height: 309px;
+    transition: .4s linear;
+    visibility: visible;
+}
+
+.accordion_item8.active {
+    height: 309px;
+    transition: .4s linear;
+    visibility: visible;
+}
+
+.accordion_item9.active {
+    height: 309px;
+    transition: .4s linear;
+    visibility: visible;
+}
+
+.accordion_item10.active {
+    height: 309px;
+    transition: .4s linear;
+    visibility: visible;
+}
+
+.accordion_item11.active {
+    height: 309px;
+    transition: .4s linear;
+    visibility: visible;
+}
+
+.content_block{
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 551px;
+    height: 187px;
+    max-height: 0;
+    display: none;
+    transition: .4s linear;
+}
+
+
+.content_block1{
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 551px;
+    height: 187px;
+    max-height: 0;
+    display: none;
+    transition: .4s linear;
+}
+
+.content_block2{
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 551px;
+    height: 187px;
+    max-height: 0;
+    display: none;
+    transition: .4s linear;
+}
+
+.content_block3{
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    margin-top: 44px;
+    margin-left: 40px;
+    width: 551px;
+    height: 187px;
+    max-height: 0;
+    display: none;
+    transition: .4s linear;
+}
+
+.content_block4{
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 551px;
+    height: 187px;
+    max-height: 0;
+    display: none;
+    transition: .4s linear;
+}
+
+.content_block5{
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 551px;
+    height: 187px;
+    max-height: 0;
+    display: none;
+    transition: .4s linear;
+}
+
+.content_block6{
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 551px;
+    height: 187px;
+    max-height: 0;
+    display: none;
+    transition: .4s linear;
+}
+
+.content_block7{
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    margin-top: 44px;
+    margin-left: 40px;
+    width: 551px;
+    height: 187px;
+    max-height: 0;
+    display: none;
+    transition: .4s linear;
+}
+
+.content_block8{
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    margin-top: 44px;
+    margin-left: 40px;
+    width: 551px;
+    height: 187px;
+    max-height: 0;
+    display: none;
+    transition: .4s linear;
+}
+
+.content_block9{
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    margin-top: 44px;
+    margin-left: 40px;
+    width: 551px;
+    height: 187px;
+    max-height: 0;
+    display: none;
+    transition: .4s linear;
+}
+
+.content_block10{
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    margin-top: 44px;
+    margin-left: 40px;
+    width: 551px;
+    height: 187px;
+    max-height: 0;
+    display: none;
+    transition: .4s linear;
+}
+
+.content_block11{
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    margin-top: 44px;
+    margin-left: 40px;
+    width: 551px;
+    height: 187px;
+    max-height: 0;
+    display: none;
+    transition: .4s linear;
+}
+
 .frame_95{
     padding: 0px;
     position: absolute;
@@ -229,6 +646,47 @@ body{
     line-height: 30px;
 }
 
+.frame_96{
+    position: absolute;
+    width: 848px;
+    height: 552px;
+    left: 30px;
+    margin-top: 916px;
+}
+
+.frame_96 h3{
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.background{
+    background-image: url(img/Rectangle\ 173.png);
+    position: absolute;
+    width: 852px;
+    height: 1355px;
+    left: 497px;
+    top: 1005px;
+}
+
+.frame_97{
+    position: absolute;
+    width: 848px;
+    height: 552px;
+    left: 30px;
+    margin-top: 1496px;
+}
+
+.frame_97 h3{
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+}
+
 .line{
     position: absolute;
     width: 193px;
@@ -237,520 +695,6 @@ body{
     top: 62px;
     background: #FFDB2D;
     border-radius: 8px;
-}
-
-.info{
-    position: absolute;
-    height: 76px;
-    left:26%;
-    right: 0%;
-    top: 0px;
-    background: #F4F4F4;
-    border-radius: 8px;
-}
-
-.info h6{
-    position: absolute;
-    height: 24px;
-    left: 4.41%;
-    right: 13.09%;
-    top: 26px;
-    font-family: "Geometria";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 150%;
-}
-
-.info img{
-    position: absolute;
-    width: 19px;
-    height: 19px;
-    right: 10px;
-    top: 28px;
-}
-
-.info img:hover{
-    border-radius: 2px;
-    transform: rotate(-45deg);
-}
-
-.info1{
-    position: absolute;
-    height: 76px;
-    left: 26%;
-    right: 0%;
-    top: 85px;
-    background: #F4F4F4;
-    border-radius: 8px;
-}
-
-.info1 h6{
-    position: absolute;
-    height: 24px;
-    left: 4.41%;
-    right: 13.09%;
-    top: 26px;
-    font-family: "Geometria";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 150%;
-}
-
-.info1 img{
-    position: absolute;
-    width: 19px;
-    height: 19px;
-    right: 10px;
-    top: 28px;
-}
-
-.info1 img:hover{
-    border-radius: 2px;
-    transform: rotate(-45deg);
-}
-
-.info2{
-    position: absolute;
-    height: 76px;
-    left: 26%;
-    right: 0%;
-    top: 170px;
-    background: #F4F4F4;
-    border-radius: 8px;
-}
-
-.info2 h6{
-    position: absolute;
-    height: 24px;
-    left: 4.41%;
-    right: 13.09%;
-    top: 26px;
-    font-family: "Geometria";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 150%;
-}
-
-.info2 img{
-    position: absolute;
-    width: 19px;
-    height: 19px;
-    right: 10px;
-    top: 28px;
-}
-
-.info2 img:hover{
-    border-radius: 2px;
-    transform: rotate(-45deg);
-}
-
-.info3{
-    position: absolute;
-    height: 309px;
-    left: 26%;
-    right: 0%;
-    top: 257px;
-    background: #F4F4F4;
-    border-radius: 8px;
-}
-
-.info3 h6{
-    position: absolute;
-    height: 24px;
-    left: 4.41%;
-    right: 13.09%;
-    top: 26px;
-    font-family: "Geometria";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 150%;
-}
-
-.info3 img{
-    position: absolute;
-    width: 19px;
-    height: 19px;
-    right: 10px;
-    top: 28px;
-    border-radius: 2px;
-    transform: rotate(-45deg);
-}
-
-
-.info3 p{
-    position: absolute;
-    height: 178px;
-    left: 5.88%;
-    right: 13.09%;
-    top: 94px;
-    font-family: "Geometria";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 130%;
-}
-
-.background{
-    background-image: url(img/Rectangle\ 173.png);
-    position: absolute;
-    width: 943px;
-    height: 1355px;
-    left: 497px;
-    top: 1050px;
-}
-
-.frame_96{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    position: absolute;
-    width: 850px;
-    height: 552px;
-    left: 30px;
-    top: 964px;
-}
-
-.frame_96 h3 {
-    font-family: "Geometria";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 30px;
-}
-
-.info4{
-    position: absolute;
-    height: 76px;
-    left:26%;
-    right: 0%;
-    top: 0px;
-    background: #F4F4F4;
-    border-radius: 8px;
-}
-
-.info4 h6{
-    position: absolute;
-    height: 24px;
-    left: 4.41%;
-    right: 13.09%;
-    top: 26px;
-    font-family: "Geometria";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 150%;
-}
-
-.info4 img{
-    position: absolute;
-    width: 19px;
-    height: 19px;
-    right: 10px;
-    top: 28px;
-}
-
-.info4 img:hover{
-    border-radius: 2px;
-    transform: rotate(-45deg);
-}
-
-.info5{
-    position: absolute;
-    height: 76px;
-    left: 26%;
-    right: 0%;
-    top: 85px;
-    background: #F4F4F4;
-    border-radius: 8px;
-}
-
-.info5 h6{
-    position: absolute;
-    height: 24px;
-    left: 4.41%;
-    right: 13.09%;
-    top: 26px;
-    font-family: "Geometria";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 150%;
-}
-
-.info5 img{
-    position: absolute;
-    width: 19px;
-    height: 19px;
-    right: 10px;
-    top: 28px;
-}
-
-.info5 img:hover{
-    border-radius: 2px;
-    transform: rotate(-45deg);
-}
-
-.info6{
-    position: absolute;
-    height: 76px;
-    left: 26%;
-    right: 0%;
-    top: 170px;
-    background: #F4F4F4;
-    border-radius: 8px;
-}
-
-.info6 h6{
-    position: absolute;
-    height: 24px;
-    left: 4.41%;
-    right: 13.09%;
-    top: 26px;
-    font-family: "Geometria";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 150%;
-}
-
-.info6 img{
-    position: absolute;
-    width: 19px;
-    height: 19px;
-    right: 10px;
-    top: 28px;
-}
-
-.info6 img:hover{
-    border-radius: 2px;
-    transform: rotate(-45deg);
-}
-
-.info7{
-    position: absolute;
-    height: 309px;
-    left: 26%;
-    right: 0%;
-    top: 257px;
-    background: #F4F4F4;
-    border-radius: 8px;
-}
-
-.info7 h6{
-    position: absolute;
-    height: 24px;
-    left: 4.41%;
-    right: 13.09%;
-    top: 26px;
-    font-family: "Geometria";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 150%;
-}
-
-.info7 img{
-    position: absolute;
-    width: 19px;
-    height: 19px;
-    right: 10px;
-    top: 28px;
-    border-radius: 2px;
-    transform: rotate(-45deg);
-}
-
-
-.info7 p{
-    position: absolute;
-    height: 178px;
-    left: 5.88%;
-    right: 13.09%;
-    top: 94px;
-    font-family: "Geometria";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 130%;
-}
-
-.frame_97{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    position: absolute;
-    width:850px;
-    height: 552px;
-    left: 30px;
-    top: 1586px;
-}
-
-.frame_97 h3 {
-    font-family: "Geometria";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 30px;
-}
-
-.info8{
-    position: absolute;
-    height: 76px;
-    left:26%;
-    right: 0%;
-    top: 0px;
-    background: #F4F4F4;
-    border-radius: 8px;
-}
-
-.info8 h6{
-    position: absolute;
-    height: 24px;
-    left: 4.41%;
-    right: 13.09%;
-    top: 26px;
-    font-family: "Geometria";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 150%;
-}
-
-.info8 img{
-    position: absolute;
-    width: 19px;
-    height: 19px;
-    right: 10px;
-    top: 28px;
-}
-
-.info8 img:hover{
-    border-radius: 2px;
-    transform: rotate(-45deg);
-}
-
-.info9{
-    position: absolute;
-    height: 76px;
-    left: 26%;
-    right: 0%;
-    top: 85px;
-    background: #F4F4F4;
-    border-radius: 8px;
-}
-
-.info9 h6{
-    position: absolute;
-    height: 24px;
-    left: 4.41%;
-    right: 13.09%;
-    top: 26px;
-    font-family: "Geometria";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 150%;
-}
-
-.info9 img{
-    position: absolute;
-    width: 19px;
-    height: 19px;
-    right: 10px;
-    top: 28px;
-}
-
-.info9 img:hover{
-    border-radius: 2px;
-    transform: rotate(-45deg);
-}
-
-.info10{
-    position: absolute;
-    height: 76px;
-    left: 26%;
-    right: 0%;
-    top: 170px;
-    background: #F4F4F4;
-    border-radius: 8px;
-}
-
-.info10 h6{
-    position: absolute;
-    height: 24px;
-    left: 4.41%;
-    right: 13.09%;
-    top: 26px;
-    font-family: "Geometria";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 150%;
-}
-
-.info10 img{
-    position: absolute;
-    width: 19px;
-    height: 19px;
-    right: 10px;
-    top: 28px;
-}
-
-.info10 img:hover{
-    border-radius: 2px;
-    transform: rotate(-45deg);
-}
-
-.info11{
-    position: absolute;
-    height: 309px;
-    left: 26%;
-    right: 0%;
-    top: 257px;
-    background: #F4F4F4;
-    border-radius: 8px;
-}
-
-.info11 h6{
-    position: absolute;
-    height: 24px;
-    left: 4.41%;
-    right: 13.09%;
-    top: 26px;
-    font-family: "Geometria";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 150%;
-}
-
-.info11 img{
-    position: absolute;
-    width: 19px;
-    height: 19px;
-    right: 10px;
-    top: 28px;
-    border-radius: 2px;
-    transform: rotate(-45deg);
-}
-
-
-.info11 p{
-    position: absolute;
-    height: 178px;
-    left: 5.88%;
-    right: 13.09%;
-    top: 94px;
-    font-family: "Geometria";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 130%;
 }
 
 .footer_wrapper{

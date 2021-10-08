@@ -6,8 +6,9 @@
     visibility: hidden;
 }
 
+
 .popup_body{
-    position: absolute;
+    position: relative;
     width: 447px;
     height: 359px;
     left: 30%;
@@ -16,6 +17,7 @@
     border-radius: 8px;
     background-color: #E5E5E5;
     opacity: 100%;
+    visibility: hidden;
 }
 
 
@@ -119,7 +121,7 @@
     padding: 10px;
 }
 
-.phone label{
+.phone span{
     position: absolute;
     width: 142px;
     height: 17px;
@@ -135,4 +137,50 @@
 
 .popup:target{
     visibility: visible;
+}
+
+.message{
+    position: absolute;
+    width: 1147px;
+    height: 333px;
+    left: 95px;
+    top: 169px;
+    background-image: url(img/Rectangle\ 210.png);
+    backdrop-filter: blur(15px);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.message h1{
+    position: absolute;
+    width: 447px;
+    height: 45px;
+    left: 350px;
+    top: 100px;
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 124%;
+}
+
+.message h4{
+    position: absolute;
+    width: 390px;
+    height: 50px;
+    left: 378px;
+    top: 165px;
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 124%;
+}
+
+.message a{
+    position: absolute;
+    left: 95.82%;
+    right: 1.74%;
+    top: 6.01%;
+    bottom: 85.59%;
 }
